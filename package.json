@@ -1,0 +1,42 @@
+{
+  "name": "preconfig",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=12.0.0 < 15.0.0"
+  },
+  "description": "A language agnostic config preparation tool",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "config",
+    "template"
+  ],
+  "homepage": "https://github.com/alvis/preconfig#readme",
+  "bugs": {
+    "url": "https://github.com/alvis/preconfig/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alvis HT Tang",
+    "email": "alvis@hilbert.space"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvis/preconfig.git"
+  },
+  "scripts": {
+    "postinstall": "presetter bootstrap",
+    "build": "run build",
+    "clean": "run clean",
+    "lint": "run lint",
+    "prepare": "run prepare",
+    "release": "run release",
+    "test": "run test --"
+  },
+  "devDependencies": {
+    "presetter": "^1.x",
+    "presetter-preset": "^1.x"
+  },
+  "dependencies": {
+  }
+}
