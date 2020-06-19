@@ -15,4 +15,4 @@
 
 /* istanbul ignore file */
 
-export {};
+export { Template } from '#template';

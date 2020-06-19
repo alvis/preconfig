@@ -36,6 +36,7 @@
   "devDependencies": {
     "@types/fs-extra": "8.x",
     "@types/js-yaml": "3.x",
+    "@types/lodash": "^4.x",
     "presetter": "^1.x",
     "presetter-preset": "^1.x",
     "ts-toolbelt": "^6.x"
@@ -43,6 +44,7 @@
   "dependencies": {
     "fs-extra": "9.x",
     "js-yaml": "3.x",
+    "lodash": "^4.x",
     "ts-error": "^1.x"
   }
 }
