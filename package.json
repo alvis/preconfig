@@ -20,6 +20,9 @@
     "name": "Alvis HT Tang",
     "email": "alvis@hilbert.space"
   },
+  "bin": {
+    "preconfig": "./bin/cli"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alvis/preconfig.git"
@@ -37,14 +40,20 @@
     "@types/fs-extra": "8.x",
     "@types/js-yaml": "3.x",
     "@types/lodash": "^4.x",
+    "@types/yargs": "15.x",
     "presetter": "^1.x",
     "presetter-preset": "^1.x",
     "ts-toolbelt": "^6.x"
   },
   "dependencies": {
+    "callsite-record": "4.x",
+    "chalk": "4.x",
     "fs-extra": "9.x",
+    "get-stdin": "7.x",
     "js-yaml": "3.x",
     "lodash": "^4.x",
-    "ts-error": "^1.x"
+    "source-map-support": "0.5.x",
+    "ts-error": "^1.x",
+    "yargs": "^15.x"
   }
 }
