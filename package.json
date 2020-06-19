@@ -38,5 +38,6 @@
     "presetter-preset": "^1.x"
   },
   "dependencies": {
+    "ts-error": "^1.x"
   }
 }
