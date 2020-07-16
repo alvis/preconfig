@@ -1,0 +1,3 @@
+a:
+  b: ${file(${file(${file(${self:file}.yaml):file}.json):file}.yaml):a.b}
+file: ${file(plain.yaml):file}

@@ -1,0 +1,1 @@
+${file(${file(${file(plain.yaml):file}.json):file}.yaml):a.b.0}

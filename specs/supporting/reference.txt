@@ -1,0 +1,1 @@
+${file(simple.txt)} and ${file(plain.yaml):file}
